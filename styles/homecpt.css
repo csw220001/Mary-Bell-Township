@@ -5,13 +5,11 @@ body {
 
 footer {
     display: flex;
-    justify-content: flex-end;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    justify-content: flex-end safe;
+    padding: 10px;
     background-color: white;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-right: 10px;
 }
