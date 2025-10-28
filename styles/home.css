@@ -1,5 +1,7 @@
 footer {
     display: flex;
     justify-content: flex-end;
+    padding: 10px;
     background-color: black;
+    vertical-align: bottom;
 }
