@@ -8,13 +8,21 @@
     </head>
     <body>
         <h1>Mary Bell Township</h1>
-        <select name="" id="">
-            <option value="en">ENG</option>
-            <option value="va">CPT</option>
-        </select>
+        
 
         <div class="content">
             <h3>Words</h3>
         </div>
+        <footer>
+            <select name="status" id="status" onchange="newHome()">
+                <option value="en">ENG</option>
+                <option value="va">CPT</option>
+            </select>
+            <script>
+                function newHome() {
+                    location.href = "homecpt.html";
+                }
+            </script>
+        </footer>
     </body>
 </html>
