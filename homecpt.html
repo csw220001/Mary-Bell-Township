@@ -8,4 +8,25 @@
     </head>
     <body>
         
+        <footer>
+            <select name="status" id="status" onload="reset()">
+                <option value="va" onselect="newHome()">CPT</option>
+                <option value="en" onselect="home()">ENG</option>
+            </select>
+            <script>
+                function reset() {
+                    document.getElementById("status").reset();
+                }
+            </script>
+            <script>
+                function home() {
+                    location.href = "home.html";
+                }
+            </script>
+            <script>
+                function newHome() {
+                    location.href = "homecpt.html";
+                }
+            </script>
+        </footer>
     </body>

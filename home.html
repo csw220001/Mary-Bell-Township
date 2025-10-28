@@ -14,10 +14,20 @@
             <h3>Words</h3>
         </div>
         <footer>
-            <select name="status" id="status" onchange="newHome()">
-                <option value="en">ENG</option>
-                <option value="va">CPT</option>
+            <select name="status" id="status" onload="reset()">
+                <option value="en" onselect="home()">ENG</option>
+                <option value="va" onselect="newHome()">CPT</option>
             </select>
+            <script>
+                function reset() {
+                    document.getElementById("status").reset();
+                }
+            </script>
+            <script>
+                function home() {
+                    location.href = "home.html";
+                }
+            </script>
             <script>
                 function newHome() {
                     location.href = "homecpt.html";
