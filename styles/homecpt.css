@@ -4,5 +4,6 @@ body {
 }
 
 footer select {
-    vertical-align: right;
+    display: flex;
+    align-items: right;
 }
