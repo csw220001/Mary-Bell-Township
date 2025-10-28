@@ -3,7 +3,7 @@ body {
     background-color: black;
 }
 
-footer select {
+footer {
     display: flex;
     justify-content: flex-end;
 }
