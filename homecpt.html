@@ -9,23 +9,13 @@
     <body>
         
         <footer>
-            <select name="status" id="status" onload="reset()">
-                <option value="va" onselect="newHome()">CPT</option>
-                <option value="en" onselect="home()">ENG</option>
+            <select name="status" id="status" onchange="oldHome()">
+                <option value="en">ENG</option>
+                <option value="va" selected>CPT</option>
             </select>
             <script>
-                function reset() {
-                    document.getElementById("status").reset();
-                }
-            </script>
-            <script>
-                function home() {
+                function oldHome() {
                     location.href = "home.html";
-                }
-            </script>
-            <script>
-                function newHome() {
-                    location.href = "homecpt.html";
                 }
             </script>
         </footer>
