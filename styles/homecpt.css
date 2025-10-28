@@ -8,5 +8,8 @@ footer {
     justify-content: flex-end;
     padding: 10px;
     background-color: white;
-    vertical-align: bottom;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
