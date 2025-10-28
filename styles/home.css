@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    justify-content: flex-end safe;
+    justify-content: safe flex-end;
     padding: 10px;
     background-color: black;
     position: fixed;
