@@ -4,8 +4,6 @@ body {
 }
 
 footer {
-    display: flex;
-    justify-content: safe flex-end;
     padding: 10px;
     background-color: white;
     position: fixed;
