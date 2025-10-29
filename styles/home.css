@@ -1,9 +1,51 @@
-h1, h2, h3, h4, h5, h6, p {
+/* amethysta-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Amethysta';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/amethysta-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-flux-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 200;
+  src: url('fonts/afacad-flux-v4-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-flux-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/afacad-flux-v4-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Amethysta';
     text-align: center;
 }
 
 h1 {
     font-size: 48px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Afacad Flux';
 }
 
 ul {
@@ -13,6 +55,7 @@ ul {
     justify-content: center;
     gap: 40px;
     font-size: 18px;
+    font-family: 'Amethysta';
     padding: 10px;
     color: white;
     background-color: black;
@@ -23,6 +66,7 @@ ul {
 }
 
 footer {
+    font-family: 'Afacad Flux';
     padding: 10px;
     color: white;
     background-color: black;
@@ -38,7 +82,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 400px;
+    height: 600px;
     width: 1000px;
 }
 
