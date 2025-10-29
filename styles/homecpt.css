@@ -59,6 +59,7 @@ h1,
 .text-size-h1 {
   font-family: 'Amethysta', sans-serif;
   font-weight: 700;
+  margin-top: 40px;
   font-size: 3.05em;
 }
 
@@ -115,7 +116,7 @@ ul {
     left: 0;
     top: 0;
     width: 100%;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 footer {
