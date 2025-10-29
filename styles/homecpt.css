@@ -139,8 +139,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 600px;
-    width: 1500px;
+    height: 650px;
+    width: 2000px;
 }
 
 .welcome {
@@ -151,6 +151,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    top: 300px;
+    top: 400px;
     left: 200px;
 }
