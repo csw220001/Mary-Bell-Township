@@ -4,7 +4,7 @@
   font-family: 'Amethysta';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/amethysta-v17-latin-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/amethysta-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* afacad-flux-200 - latin */
@@ -13,7 +13,7 @@
   font-family: 'Afacad Flux';
   font-style: normal;
   font-weight: 200;
-  src: url(fonts/afacad-flux-v4-latin-200.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/afacad-flux-v4-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* afacad-flux-regular - latin */
@@ -22,7 +22,7 @@
   font-family: 'Afacad Flux';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/afacad-flux-v4-latin-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* afacad-flux-600 - latin */
@@ -31,7 +31,7 @@
   font-family: 'Afacad Flux';
   font-style: normal;
   font-weight: 600;
-  src: url(fonts/afacad-flux-v4-latin-600.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/afacad-flux-v4-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 html {font-size: 16px;}
@@ -133,7 +133,7 @@ footer {
 }
 
 .townHall {
-    background-image: url(images/townHall_invert.png);
+    background-image: url(../images/townHall_invert.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
