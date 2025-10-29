@@ -13,6 +13,10 @@ footer {
 
 .townHall {
     background-image: url("images/townHall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     height: 400px;
     width: 1000px;
 }
