@@ -117,8 +117,18 @@ ul {
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 1;
     width: 100%;
     margin-top: -5px;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+}
+
+ul a:visited {
+  color: black;
 }
 
 footer {
@@ -129,6 +139,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    z-index: 1;
     width: 100%;
 }
 
@@ -140,7 +151,8 @@ footer {
     background-size: cover;
     position: relative;
     height: 650px;
-    width: 2000px;
+    width: 85%;
+    max-width: 2000px;
 }
 
 .welcome {
@@ -151,6 +163,18 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    top: 450px;
-    left: 100px;
+    top: 425px;
+    left: 13%;
+    max-height: fit-content;
+    min-width: 300px;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.news {
+  
 }
