@@ -46,3 +46,9 @@ footer {
     height: 400px;
     width: 1000px;
 }
+
+.welcome {
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+}
