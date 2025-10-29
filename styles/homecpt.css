@@ -12,7 +12,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 40px;
+    font-size: 18px;
 }
 
 footer {
