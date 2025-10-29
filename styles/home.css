@@ -179,6 +179,7 @@ footer {
   justify-content: center;
   flex-flow: row wrap;
   gap: 8px;
+  margin-bottom: 20px;
 }
 
 .news div {
@@ -195,27 +196,38 @@ footer {
   border-radius: 10px;
 }
 
+.news .pup {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/pup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .news .strikers {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/baseball.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .news .genevieve {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/Genevieve_Forrester.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.news .one {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
-}
-
-.news .two {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+.news .stuco {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/stuco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .news .anemia {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/hospital.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .news .georgia {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/Georgia_Langston.png);
-  max-width: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/Georgia_Langston.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
