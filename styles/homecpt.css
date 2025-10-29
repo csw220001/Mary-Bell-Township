@@ -176,5 +176,21 @@ footer {
 }
 
 .news {
-  
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 6px;
+}
+
+.news div {
+  display: inline-flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/townHall.jpg);
+  color: white;
+  text-align: center;
+  width: 300px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 200px;
+  border-radius: 10px;
 }
