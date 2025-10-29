@@ -12,7 +12,7 @@ footer {
 }
 
 .townHall {
-    height: 75%;
-    width: 100%;
     background-image: url("images/townHall.jpg");
+    height: 400px;
+    width: 1000px;
 }
