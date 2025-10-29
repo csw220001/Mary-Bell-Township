@@ -38,7 +38,7 @@
 html {font-size: 16px;}
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Afacad Flux', sans-serif;
   font-weight: false;
   line-height: 1.65;
 }
@@ -48,7 +48,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Afacad Flux', sans-serif;
   font-weight: true;
   line-height: 1.15;
   text-align: center;
@@ -56,7 +56,7 @@ h5 {
 
 h1,
 .text-size-h1 {
-  font-family: 'Amethysta', sans-serif;
+  font-family: 'Amethysta', serif;
   font-weight: 700;
   margin-top: 0;
   font-size: 3.05em;
@@ -78,7 +78,7 @@ h5,
 
 p {
     text-align: center;
-    font-family: 'Afacad Flux';
+    font-family: 'Afacad Flux', sans-serif;
     font-size: 1em;
 }
 
@@ -94,7 +94,7 @@ ul {
     justify-content: center;
     gap: 40px;
     font-size: 18px;
-    font-family: 'Amethysta';
+    font-family: 'Amethysta', serif;
     padding: 10px;
     color: white;
     background-color: black;
@@ -105,7 +105,7 @@ ul {
 }
 
 footer {
-    font-family: 'Afacad Flux';
+    font-family: 'Afacad Flux', sans-serif;
     padding: 10px;
     color: white;
     background-color: black;
