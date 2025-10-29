@@ -178,13 +178,14 @@ footer {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  gap: 6px;
+  gap: 8px;
 }
 
 .news div {
   display: inline-flex;
   justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/townHall.jpg);
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
   color: white;
   text-align: center;
   width: 300px;
@@ -192,4 +193,29 @@ footer {
   padding-right: 4px;
   padding-top: 200px;
   border-radius: 10px;
+}
+
+.news .strikers {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+}
+
+.news .genevieve {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+}
+
+.news .one {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+}
+
+.news .two {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+}
+
+.news .anemia {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/);
+}
+
+.news .georgia {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/Georgia_Langston.png);
+  max-width: 350px;
 }
