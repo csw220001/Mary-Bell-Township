@@ -18,11 +18,18 @@ ul {
     justify-content: center;
     gap: 40px;
     font-size: 18px;
+    padding: 10px;
+    color: black;
     background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 footer {
     padding: 10px;
+    color: black;
     background-color: white;
     position: fixed;
     left: 0;
