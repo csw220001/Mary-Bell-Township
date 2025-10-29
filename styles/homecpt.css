@@ -17,5 +17,5 @@ footer {
 }
 
 .townHall {
-    background-image: url(images/townHall_invert);
+    background-image: url("images/townHall_invert");
 }
