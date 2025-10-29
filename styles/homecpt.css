@@ -133,7 +133,7 @@ footer {
 }
 
 .townHall {
-    background-image: url("images/townHall_invert.png");
+    background-image: url('images/townHall_invert.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
