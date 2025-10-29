@@ -11,6 +11,6 @@ footer {
     width: 100%;
 }
 
-.welcome {
-    float: left;
+.townHall {
+    background-image: url(images/townHall);
 }
