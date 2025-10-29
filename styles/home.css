@@ -58,7 +58,7 @@ h1,
 .text-size-h1 {
   font-family: 'Amethysta', Garamond, serif;
   font-weight: 700;
-  margin-top: 50px;
+  margin-top: 150px;
   font-size: 3.05em;
 }
 
@@ -150,6 +150,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    top: 400px;
-    left: 200px;
+    top: 500px;
+    left: 100px;
 }
