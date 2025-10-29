@@ -54,4 +54,6 @@ footer {
     width: 35%;
     padding-top: 10px;
     padding-bottom: 10px;
+    position: relative;
+    top: 100px;
 }
