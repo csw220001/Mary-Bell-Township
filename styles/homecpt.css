@@ -134,12 +134,13 @@ footer {
 
 .townHall {
     background-image: url(../images/townHall_invert.png);
+    margin: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 600px;
-    width: 1000px;
+    width: 1500px;
 }
 
 .welcome {
