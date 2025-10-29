@@ -13,4 +13,6 @@ footer {
 
 .townHall {
     background-image: url("images/townHall");
+    height: 400px;
+    width: 100%
 }
