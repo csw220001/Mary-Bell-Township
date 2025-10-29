@@ -16,8 +16,8 @@ footer {
     width: 100%;
 }
 
-div .townHall {
-    background-image: url("images/townHall_invert");
+.townHall {
     height: 400px;
     width: 1000px;
+    background-image: url("images/townHall.png");
 }
