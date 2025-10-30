@@ -142,8 +142,32 @@ footer {
     width: 100%;
 }
 
-.townHall {
-    background-image: url(../images/townHall.jpg);
+.suburb {
+    background-image: url(../images/suburb.webp);
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+    width: 85%;
+    max-width: 2000px;
+}
+
+.museum {
+    background-image: url(../images/pavillion.jpg);
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+    width: 85%;
+    max-width: 2000px;
+}
+
+.park {
+    background-image: url(../images/park.jpg);
     margin: auto;
     background-position: center;
     background-repeat: no-repeat;
