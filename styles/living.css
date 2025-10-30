@@ -1,0 +1,293 @@
+/* amethysta-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Amethysta';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/amethysta-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-flux-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/afacad-flux-v4-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-flux-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/afacad-flux-v4-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html {font-size: 16px;}
+
+body {
+  font-family: 'Afacad Flux', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Afacad Flux', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+  text-align: center;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Amethysta', Garamond, serif;
+  font-weight: 700;
+  margin-top: 70px;
+  font-size: 3.05em;
+}
+
+h2,
+.text-size-h2 { 
+    font-family: 'Amethysta', Garamond, serif;
+    font-size: 2.44em; 
+}
+
+h3,
+.text-size-h3 { 
+    font-family: 'Amethysta', Garamond, serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.95em;
+}
+
+h4,
+.text-size-h4 { 
+    font-size: 1.56em;
+}
+
+h5,
+.text-size-h5 {
+    font-size: 1.25em;
+}
+
+.text-caption { 
+    font-size: 0.8em; 
+}
+
+p {
+    text-align: center;
+    font-family: 'Afacad Flux', sans-serif;
+    font-size: 1em;
+    margin-top: 0;
+}
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    font-size: 18px;
+    font-family: 'Amethysta', Garamond, serif;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin-top: -5px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+ul a:visited {
+  color: white;
+}
+
+footer {
+    font-family: 'Afacad Flux', sans-serif;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.townHall {
+    background-image: url(../images/townHall.jpg);
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+    width: 85%;
+    max-width: 2000px;
+}
+
+.welcome {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 425px;
+    left: 13%;
+    max-height: fit-content;
+    min-width: 300px;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  padding-top: 10px;
+}
+
+.newsborder {
+  color: white;
+  background-color: black;
+  padding-top: 6px;
+  padding-bottom: 26px;
+  border-radius: 15px;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.news div {
+  display: inline-flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 300px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 200px;
+  border-radius: 10px;
+}
+
+.news .pup {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/pup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .wolves {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/baseball.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .genevieve {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Genevieve_Forrester.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .stuco {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/stuco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .anemia {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/hospital.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .georgia {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Georgia_Langston.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .blood {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/blood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .steam {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/steam.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .jovancito {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/heart.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .strikers {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Whitney_Taylor.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .reeds {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/reeds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .fun {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/fun.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.join {
+  padding-top: 20px;
+}
+
+.info {
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin-bottom: -1%;
+  margin-left: -15%;
+  margin-right: -15%;
+}
