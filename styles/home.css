@@ -78,12 +78,12 @@ h3,
 
 h4,
 .text-size-h4 { 
-    font-size: 1.56em; 
+    font-size: 1.56em;
 }
 
 h5,
 .text-size-h5 {
-    font-size: 1.25em; 
+    font-size: 1.25em;
 }
 
 .text-caption { 
@@ -171,7 +171,7 @@ footer {
 .content {
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 .news {
@@ -202,7 +202,7 @@ footer {
   background-size: cover;
 }
 
-.news .strikers {
+.news .wolves {
   background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/baseball.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,4 +230,45 @@ footer {
   background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/Georgia_Langston.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.news .blood {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/blood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .steam {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/steam.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .fun {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/fun.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .jovancito {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/heart.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news .reeds {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/reeds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin-bottom: -2%;
+  margin-left: -15%;
+  margin-right: -15%;
 }
