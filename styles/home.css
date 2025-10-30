@@ -174,19 +174,27 @@ footer {
   margin-bottom: 2%;
 }
 
+.newsborder {
+  color: white;
+  background-color: black;
+  padding-top: 6px;
+  padding-bottom: 26px;
+  border-radius: 15px;
+}
+
 .news {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   gap: 8px;
   margin-bottom: 20px;
+  padding-top: 10px;
 }
 
 .news div {
   display: inline-flex;
   justify-content: center;
   background-color: black;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
   color: white;
   text-align: center;
   width: 300px;
@@ -197,75 +205,79 @@ footer {
 }
 
 .news .pup {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/pup.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/pup.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .wolves {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/baseball.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/baseball.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .genevieve {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/Genevieve_Forrester.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Genevieve_Forrester.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .stuco {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/stuco.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/stuco.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .anemia {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/hospital.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/hospital.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .georgia {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/Georgia_Langston.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Georgia_Langston.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .blood {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/blood.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/blood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .steam {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/steam.gif);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/steam.gif);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .jovancito {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/heart.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/heart.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .strikers {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/Whitney_Taylor.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Whitney_Taylor.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .reeds {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/reeds.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/reeds.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .fun {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(../images/fun.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/fun.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.join {
+  padding-top: 20px;
 }
 
 .info {
