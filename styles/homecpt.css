@@ -205,73 +205,73 @@ footer {
 }
 
 .news .pup {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/pup.png);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/pup_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .wolves {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/baseball.webp);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/baseball_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .genevieve {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/Genevieve_Forrester.png);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/Genevieve_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .stuco {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/stuco.png);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/stuco_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .anemia {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/hospital.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/hospital_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .georgia {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/Georgia_Langston.png);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/Mary_Flora_Bell.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .blood {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/blood.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/blood_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .steam {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/steam.gif);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/steam_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .jovancito {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/heart.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/heart_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .strikers {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/Whitney_Taylor.png);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/Whitney_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .reeds {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/reeds.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/reeds_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .news .fun {
-  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/fun.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .75)), url(../images/fun_invert.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
