@@ -142,54 +142,37 @@ footer {
     width: 100%;
 }
 
+.suburb, 
+.museum, 
+.park {
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 650px;
+  width: 85%;
+  max-width: 2000px;
+}
+
+.suburb h2, 
+.museum h2, 
+.park h2 {
+  color: white;
+  position: relative;
+  top: 300px;
+}
+
 .suburb {
-    background-image: url(../images/suburb.webp);
-    margin: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 650px;
-    width: 85%;
-    max-width: 2000px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/bell-story.jpg);
 }
 
 .museum {
-    background-image: url(../images/pavillion.jpg);
-    margin: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 650px;
-    width: 85%;
-    max-width: 2000px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/pavillion.jpg);
 }
 
 .park {
-    background-image: url(../images/park.jpg);
-    margin: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 650px;
-    width: 85%;
-    max-width: 2000px;
-}
-
-.welcome {
-    color: white;
-    background-color: black;
-    border-radius: 20px;
-    width: 25%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: relative;
-    top: 425px;
-    left: 13%;
-    max-height: fit-content;
-    min-width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/park.jpg);
 }
 
 .content {
@@ -199,15 +182,16 @@ footer {
   padding-top: 10px;
 }
 
-.newsborder {
+.border {
   color: white;
   background-color: black;
   padding-top: 6px;
   padding-bottom: 26px;
   border-radius: 15px;
+  margin-bottom: 50px;
 }
 
-.news {
+.flex {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -216,7 +200,7 @@ footer {
   padding-top: 10px;
 }
 
-.news div {
+.flex div {
   display: inline-flex;
   justify-content: center;
   background-color: black;
@@ -229,74 +213,74 @@ footer {
   border-radius: 10px;
 }
 
-.news .pup {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/pup.png);
+.flex .one {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .wolves {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/baseball.webp);
+.flex .two {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .genevieve {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Genevieve_Forrester.png);
+.flex .three {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .stuco {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/stuco.png);
+.flex .four {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .anemia {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/hospital.jpg);
+.flex .five {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .georgia {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Georgia_Langston.png);
+.flex .six {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .blood {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/blood.jpg);
+.flex .seven {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .steam {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/steam.gif);
+.flex .eight {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .jovancito {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/heart.jpg);
+.flex .nine {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .strikers {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/Whitney_Taylor.png);
+.flex .ten {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .reeds {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/reeds.jpg);
+.flex .eleven {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.news .fun {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/fun.jpeg);
+.flex .twelve {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
