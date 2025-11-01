@@ -159,21 +159,21 @@ footer {
 .suburb h2, 
 .museum h2, 
 .park h2 {
-  color: black;
+  color: white;
   position: relative;
   top: 300px;
 }
 
 .suburb {
-    background-image: linear-gradient(rgba(255, 255,  255, .5), rgba(255, 255,  255, .5)), url(../images/bell-story_invert.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/bell-story.jpg);
 }
 
 .museum {
-    background-image: linear-gradient(rgba(255, 255,  255, .5), rgba(255, 255,  255, .5)), url(../images/pavillion_invert.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/pavillion.jpg);
 }
 
 .park {
-    background-image: linear-gradient(rgba(255, 255,  255, .5), rgba(255, 255,  255, .5)), url(../images/park_invert.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/park.jpg);
 }
 
 .content {
@@ -184,8 +184,8 @@ footer {
 }
 
 .border {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   padding-top: 6px;
   padding-bottom: 26px;
   border-radius: 15px;
@@ -205,7 +205,7 @@ footer {
   display: inline-flex;
   justify-content: center;
   background-color: white;
-  color: black;
+  color: white;
   text-align: center;
   width: 300px;
   padding-left: 4px;
@@ -215,73 +215,73 @@ footer {
 }
 
 .flex .one {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .two {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .three {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .four {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .five {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .six {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .seven {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .eight {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/construction_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/construction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .nine {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/stadium_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/stadium.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .ten {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/townSquare_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/town_square.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .eleven {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/library_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/library.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .flex .twelve {
-  background-image: linear-gradient(rgba(255, 255,  255, .25), rgba(255, 255,  255, .75)), url(../images/building_invert.png);
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .75)), url(../images/building.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
