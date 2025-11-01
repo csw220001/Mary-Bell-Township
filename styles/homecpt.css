@@ -120,6 +120,7 @@ ul {
     z-index: 1;
     width: 100%;
     margin-top: -5px;
+    text-align: center;
 }
 
 ul a {
