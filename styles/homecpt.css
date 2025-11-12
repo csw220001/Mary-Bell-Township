@@ -293,7 +293,7 @@ footer {
   margin-right: -15%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   ul {
     gap: 5px;
     padding-bottom: 5px;
