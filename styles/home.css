@@ -292,3 +292,50 @@ footer {
   margin-left: -15%;
   margin-right: -15%;
 }
+
+@media screen and (max-width: 600px) {
+  ul {
+    gap: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    max-width: 305px;
+  }
+  
+  div.townHall {
+    height: 300px;
+    margin-bottom: 140px;
+  }
+
+  div.welcome {
+    left: 0;
+    top: 200px;
+    margin: auto;
+    min-width: 240px;
+  }
+
+  div.news {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  div.news div {
+    height: 140px;
+    padding-top: 60px;
+  }
+
+  .info {
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 30px;
+    margin-left: -16%;
+    margin-right: -16%;
+  }
+
+  .info h4 {
+    font-size: 1.25em;
+  }
+
+  .info h5 {
+    font-size: 1em;
+  }
+}
