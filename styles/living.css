@@ -119,6 +119,7 @@ ul {
     width: 100%;
     z-index: 1;
     margin-top: -5px;
+    text-align: center;
 }
 
 ul a {
@@ -286,6 +287,21 @@ footer {
   background-position: center;
 }
 
+.figure {
+  float: right;
+}
+
+.founder, 
+.doctor {
+  text-align: center;
+  max-width: 50%;
+}
+
+.founder img, 
+.doctor img {
+  max-width: 100%;
+}
+
 .join {
   padding-top: 20px;
 }
@@ -299,4 +315,54 @@ footer {
   margin-bottom: -1%;
   margin-left: -15%;
   margin-right: -15%;
+}
+
+@media screen and (max-width: 320px) {
+  ul {
+    gap: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    max-width: 305px;
+  }
+  
+  div.suburb, div.museum, div.park {
+    height: 300px;
+    margin-bottom: 140px;
+  }
+
+  .suburb h2, 
+  .museum h2, 
+  .park h2 {
+    top: 100px;
+  }
+
+  .content {
+    margin-top: -100px;
+  }
+
+  div.flex {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  div.flex div {
+    height: 140px;
+    padding-top: 60px;
+  }
+
+  .info {
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 30px;
+    margin-left: -16%;
+    margin-right: -16%;
+  }
+
+  .info h4 {
+    font-size: 1.25em;
+  }
+
+  .info h5 {
+    font-size: 1em;
+  }
 }
